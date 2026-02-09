@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<manifest>
+  <default revision="master" sync-j="4" clone-depth="1" fetch="true"/>
+  <project name="openembedded/bitbake" path="bitbake" revision="921e4ce1e030e4c8c3ecd5d6ffc7343df473d13c" remote="github-com" upstream="refs/heads/master"/>
+  <project name="AudioReach/meta-audioreach" path="meta-audioreach" revision="f864c62336a771b05b6d1e03a1092ddd286f4038" remote="github-com" upstream="refs/heads/master"/>
+  <project name="openembedded/meta-openembedded" path="meta-openembedded" revision="dfd6cf901aa530eb924ed62ad2498f8abf43fed2" remote="github-com" upstream="refs/heads/master"/>
+  <project name="qualcomm-linux/meta-qcom" path="meta-qcom" revision="032006d8085d2d79e1974292d93557a89b996957" remote="github-com" upstream="refs/heads/master"/>
+  <project name="qualcomm-linux/meta-qcom-distro" path="meta-qcom-distro" revision="9754815d7eeb95e68db943dbae342496a586f53f" remote="github-com" upstream="refs/heads/main"/>
+  <project name="qualcomm-linux/meta-qcom-extras" path="meta-qcom-extras" revision="2a16ffa6767a2ecd2601888fc4dc941e13704928" remote="github-com" upstream="refs/heads/main"/>
+  <project name="meta-selinux" path="meta-selinux" revision="d670531ad7e6cd0dac08010fbd9b604501391245" remote="git-yoctoproject-org" upstream="refs/heads/master"/>
+  <project name="uptane/meta-updater" path="meta-updater" revision="3aeb221a11b1e99afa70797a22a2e928982c3c2e" remote="github-com" upstream="refs/heads/master"/>
+  <project name="git/meta-virtualization" path="meta-virtualization" revision="28d26fd95397bf575e65fcca0cbb302b1e9bc7ff" remote="git-yoctoproject-org" upstream="refs/heads/master"/>
+  <project name="meta-yocto" path="meta-yocto" revision="de4abc0a175af12eacc761a2e1e60ca7fdfeaa1b" remote="git-yoctoproject-org" upstream="refs/heads/master"/>
+  <project name="openembedded/openembedded-core" path="oe-core" revision="7109e5d85a8ea466762329f036806886f93f0faa" remote="github-com" upstream="refs/heads/master"/>
+  <project name="qualcomm-linux/meta-qcom-extras-releases" path="meta-qcom-extras-releases" revision="d7d8955699ad2d79da111d8c5c40c8799608e06b" remote="github-com" upstream="refs/heads/main">
+   <linkfile dest="setup-environment" src="setup-environment"/>
+  </project>
+  <remote name="github-com" fetch="https://github.com/"/>
+  <remote name="git-yoctoproject-org" fetch="https://git.yoctoproject.org/"/>
+</manifest>
